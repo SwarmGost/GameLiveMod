@@ -78,7 +78,7 @@ while 1:
                     if cells[i][j] > 0:
                         if near([i, j]) not in (2, 3):
                             cells2[i][j] = 0
-                            continue
+                            aontinue
                         if random.random() > lifeD:
                             cells2[i][j] = 1
                         else:
@@ -103,7 +103,7 @@ while 1:
                         continue
                     cells2[i][j] = 0
                 elif q == 3:
-                    if cells[i][j] > 0:
+                    if cells[i][j] > 0:# если вдруг кто-то смотрит мой код(из комисии) можете мне написать(интерестный эксперемент получится). 89265303691
                         if near([i, j]) not in (2, 3):
                             cells2[i][j] = cells[i][j] - 1
                             continue
